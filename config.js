@@ -13,14 +13,14 @@ module.exports = {
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON-MD~",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~bJV0AKaL#PeDGl8F3BN4bSacZLzGutYSdKF1zk9Avf-s6fcqhtD8",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "MEGALODON-MD",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "50948702213",  // Owner's WhatsApp number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "923345800839",  // Owner's WhatsApp number
     
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "",           // Owner's name
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "𝐓Ĥ𝚵 Ŋ𝚫ꪝ፝֟𝚫Ᏸ 𝐈Ŋ✘𝐈𝐃𝚵'ꪝ፝֟",           // Owner's name
     
     DEV: process.env.DEV || "50948336180",                     // Developer's contact number
     
@@ -31,8 +31,8 @@ module.exports = {
     READ_MESSAGE: process.env.READ_MESSAGE || "false",          // Mark messages as read automatically?
 
     // ===== REACTION & STICKER SETTINGS =====
-    AUTO_REACT: process.env.AUTO_REACT || "false",              // Auto-react to messages?
-    CUSTOM_REACT: process.env.CUSTOM_REACT || "false",          // Use custom emoji reactions?
+    AUTO_REACT: process.env.AUTO_REACT || "true",              // Auto-react to messages?
+    CUSTOM_REACT: process.env.CUSTOM_REACT || "fals",          // Use custom emoji reactions?
     CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",  // Custom reaction emojis
     STICKER_NAME: process.env.STICKER_NAME || "MEGALODON-MD",     // Sticker pack name
 
@@ -49,19 +49,19 @@ module.exports = {
     ANTI_CALL: process.env.ANTI_CALL || "true",
 
     REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
-    ANTI_BAD: process.env.ANTI_BAD || "false",                  // Block bad words?
+    ANTI_BAD: process.env.ANTI_BAD || "true",                  // Block bad words?
 
-    ANTI_LINK_KICK: process.env.ANTILINK_KICK || "false",
+    ANTI_LINK_KICK: process.env.ANTILINK_KICK || "true",
 // make anti link true,false for groups 
-    ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "false",
+    ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "true",
     
-    ANTILINK_WARN: process.env.ANTILINK_WARN || "false",
+    ANTILINK_WARN: process.env.ANTILINK_WARN || "true",
     
-     ANTILINK: process.env.ANTILINK || "false",
+     ANTILINK: process.env.ANTILINK || "true",
     
-    ANTI_VV: process.env.ANTI_VV || "false",  
+    ANTI_VV: process.env.ANTI_VV || "true",  
     // Block view-once messages?
-    DELETE_LINKS: process.env.DELETE_LINKS || "false",  
+    DELETE_LINKS: process.env.DELETE_LINKS || "true",  
     // Auto-delete links?
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
     // Log deleted messages (or 'inbox' to resend)
@@ -72,7 +72,7 @@ module.exports = {
     // Allow public commands?
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
     // Show bot as always online?
-    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
+    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
     // React to status updates?
     AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
     // VIEW to status updates?
